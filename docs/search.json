@@ -67,14 +67,14 @@
     "href": "assignments/assignment-1.html#a",
     "title": "Assignment 1",
     "section": "(a)",
-    "text": "(a)"
+    "text": "(a)\nR vs Python This the video I have chosen.\n\nBrief Summary:"
   },
   {
     "objectID": "assignments/assignment-1.html#b",
     "href": "assignments/assignment-1.html#b",
     "title": "Assignment 1",
     "section": "(b)",
-    "text": "(b)"
+    "text": "(b)\n\n# R program to add two numbers\nnumb1 &lt;- 8\nnumb2 &lt;- 4\n\n# Adding two numbers \nsum &lt;- numb1 + numb2 \n\nprint(paste(\"The sum is\", sum))\n\n[1] \"The sum is 12\"\n\n\n# Python program to add two numbers\n\nnumb1 = 8\nnumb2 = 4\n\n# Adding two numbers \nsum = numb1 + numb2 \n\n# Printing the result \nprint(\"The sum is\", sum) \n\n#Create a vector:\nmy_vec &lt;- c(1, 2, 3, 4, 5, 6, 7, 8)\nprint(my_vec[seq(2, length(my_vec), 3)])\n\n[1] 2 5 8\n\n\n#Create a list:\nmy_vec = [1, 2, 3, 4, 5, 6, 7, 8]\nprint(my_vec[1::3])\n\n#Define a function:\nmy_sum &lt;- function(x, y){\n  x &lt;- x + 1\n  y &lt;- y + 1\n  return(x + y)\n}\n#Test the function\nprint(my_sum(1, 2))\n\n[1] 5\n\n\n#Define a function:\ndef my_sum(x, y):\n  x = x + 1\n  y = y + 1\n  return x + y\n#\n#Test the function\nprint(my_sum(1, 2))"
   },
   {
     "objectID": "assignments/assignment-1.html#c",
