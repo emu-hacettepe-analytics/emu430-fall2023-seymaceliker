@@ -10,9 +10,11 @@ My first assignment has three parts.
 
 ### Brief Summary:
 
+The video compares R and Python for data analysis. It highlights that R is known for its simplicity, making it easy for beginners to perform basic data analysis tasks with minimal code. However, it can be challenging to master advanced features. Python, on the other hand, excels at importing data from various sources and offers the pandas library for quick data manipulation. R is optimized for statistical analysis and modeling, while Python has libraries like NumPy for data modeling. In terms of visualization, R has strong capabilities with its base graphics and ggplot2 for advanced plots. Typically, organizations use both languages, starting with R for initial analysis and transitioning to Python for deploying data products.
+
 ## (b)
 
-``` {r}
+```{r}
 # R program to add two numbers
 numb1 <- 8
 numb2 <- 4
@@ -36,7 +38,7 @@ sum = numb1 + numb2
 print("The sum is", sum) 
 ```
 
-``` {r}
+```{r}
 #Create a vector:
 my_vec <- c(1, 2, 3, 4, 5, 6, 7, 8)
 print(my_vec[seq(2, length(my_vec), 3)])
@@ -48,7 +50,7 @@ my_vec = [1, 2, 3, 4, 5, 6, 7, 8]
 print(my_vec[1::3])
 ```
 
-``` {r}
+```{r}
 #Define a function:
 my_sum <- function(x, y){
   x <- x + 1
